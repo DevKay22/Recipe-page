@@ -16,8 +16,13 @@ body{
     width: 48%;
     background-color: white;
     border-radius: 1.0em;
-    padding: 1.3em;
+    padding: 1.7em;
     margin-top: 3.5em;
+    margin-bottom: 4em;
+}
+
+li::marker{
+    color: #d95b25;
 }
 
 h1{
@@ -45,6 +50,8 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 60%;
+    margin-right: 3em;
 
 }
 
@@ -56,11 +63,11 @@ h1{
 .prepare{
     background-color: #FFF7FC;
     padding: 1.22em;
-    font-size: 0.8em;
+    font-size: 0.95em;
 }
 
 .prepare>h3{
-    color: #886676;
+    color: #d95b25;
     font-weight: bold;
     
 }
@@ -70,7 +77,7 @@ h1{
 }
 
 h2{
-    color: #E1AC95;
+    color: #d95b25;
     font-weight: 900;
     font-family: "Lora", serif;
     font-optical-sizing: auto;
@@ -94,19 +101,53 @@ li{
 
 .last>li{
     color: black;
+    font-weight: bold;
 }
     
 .lastp{
     color: gray;
     line-height: 1.48em;
     margin-left: 0.3em;
+    font-weight: 400;
 }
 
-hr{
+.firsthr{
     width: 100%;
     border: 0.01em solid grey;
     margin-top: 2em;
     margin-bottom: 2em;
     font-weight: 100;
     border-top: 0;
+}
+
+.tablecontent>p{
+    color: grey;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.omeltable{
+    font-size: 0.9em;
+    color: grey;
+    font-weight: 500;
+}
+
+.tablecontent>.value{
+    color: #c44d1a;
+    font-weight: bold;
+}
+
+.tablehr{
+    
+        width: 100%;
+        border: 0.01em solid grey;
+        /* margin-top: 2em;
+        margin-bottom: 2em; */
+        font-weight: 100;
+        border-top: 0;
+
+}
+
+.table{
+    margin-bottom: 4em;
 }
